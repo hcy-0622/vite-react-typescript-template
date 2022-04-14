@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <>
       <img style={{ width: '256px' }} src={logo} alt="" />
-      <Button>Button</Button>
+      <Button className="bg-red">Button</Button>
     </>
   )
 }
